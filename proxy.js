@@ -12,7 +12,7 @@ var proxy = httpProxy.createServer({
       key: fs.readFileSync('key.pem', 'utf8'),
       cert: fs.readFileSync('cert.pem', 'utf8')
     },
-    target: 'https://IP_OF_DETINATION',  //can use url since have been chaged in host and will cause a loop
+    target: 'https://IP_OF_DESTINATION',  //can use url since have been chaged in host and will cause a loop
     secure: false // Depends on your needs, could be false.
   });
 
