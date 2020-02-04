@@ -14,6 +14,7 @@ Add your host like :
 
 # 2. Modify 
 
+IP_OF_DESTINATION : the actual ip of destination for the catched traffic
 SOME_URL_TO_CATCH : replace by desired path and change the returned json as desired
 SOME_OTHER_URL_CATCHING_DATA : example where request payload is catch
 
